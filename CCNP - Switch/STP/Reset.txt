@@ -10,4 +10,5 @@ delete /force vlan.dat
 delete /force multiple-fs
 puts "Switch in 1 minute. please relax."
 reload in 1 RESET.TCL SCRIPT RUN
+typeahead "\n"
 }
